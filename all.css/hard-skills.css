@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+@media screen and (min-width:480px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #000c23;
+        width: 95vw;
+    }
+
+    h1 {
+        text-align: center;
+        color: #000c33;
+        text-shadow: 3px -2px 2px darkkhaki;
+        font-size: 8vw;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 6px black;
+    }
+
+    div.linguagens {
+        display: inline-block;
+        border: 1px solid #000c339d;
+        border-radius: 60px;
+        padding-left: 30px;
+        margin: inherit;
+        width: 420px;
+        height: 345px;
+    }
+
+    div#html5 {
+        background-image: url('../imagem/html5.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    div#css3 {
+        background-image: url('../imagem/css.jpg'); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        transform: translate(1px, -7px);
+    }
+
+    p.hypertext {
+        text-align: justify;
+        text-indent: 10px;
+        color: rgba(255, 255, 255, 0.747);
+        text-shadow: 1px 1px 4px black;
+        line-height: 1.2em;
+        margin-right: 24px;
+    }
+
+    p.style {
+        text-align: justify;
+        text-indent: 10px;
+        color: rgba(255, 255, 255, 0.747);
+        text-shadow: 1px 1px 4px black;
+        line-height: 1.8em;
+        margin-right: 30px;
+    }
+    
+    div.retorno > a > img{
+        width: 12vw;
+        position: relative;
+        left: 45%;
+    }
+
+    a > img:hover {
+        background-color: #000c33a6;
+        border-radius: 20px;
+        padding: 2px;
+    }
+}
+
+@media screen and (min-width:780px) and (max-width:992px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #000c23;
+        width: 96vw;
+    }
+
+    h1 {
+        text-align: center;
+        color: #000c33;
+        text-shadow: 3px -2px 2px darkkhaki;
+        font-size: 7.1vw;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 6px black;
+    }
+
+    div.linguagens {
+        display: inline-block;
+        border: 1px solid #000c339d;
+        border-radius: 60px;
+        padding-left: 30px;
+        margin: inherit;
+        width: 421px;
+        height: 345px;
+    }
+
+    div#html5 {
+        background-image: url('../imagem/html5.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+    }
+    
+    div#css3 {
+        background-image: url('../imagem/css.jpg'); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        transform: translate(4px, -2%);
+    }
+
+    p.hypertext {
+        text-align: justify;
+        text-indent: 10px;
+        color: rgba(255, 255, 255, 0.747);
+        text-shadow: 1px 1px 4px black;
+        line-height: 1.2em;
+        margin-right: 35px;
+    }
+    
+    p.style {
+        text-align: justify;
+        text-indent: 10px;
+        color: rgba(255, 255, 255, 0.747);
+        text-shadow: 1px 1px 4px black;
+        line-height: 1.8em;
+        margin-right: 30px;
+    }
+    
+    div.retorno > a > img{
+        width: 7vw;
+        position: relative;
+        left: 45%;
+    }
+
+    a > img:hover {
+        background-color: #000c33a6;
+        border-radius: 20px;
+        padding: 2px;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #000c23;
+        width: 97vw;
+    }
+
+    h1 {
+        text-align: center;
+        color: #000c33;
+        text-shadow: 3px -2px 2px darkkhaki;
+        font-size: 7.1vw;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 6px black;
+    }
+
+    div.linguagens {
+        display: inline-block;
+        border: 1px solid #000c339d;
+        border-radius: 60px;
+        padding-left: 30px;
+        margin: inherit;
+        width: 433px;
+        height: 345px;
+    }
+
+    div#html5 {
+        background-image: url('../imagem/html5.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+    }
+    
+    div#css3 {
+        background-image: url('../imagem/css.jpg'); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 32%;
+    }
+
+
+    p.hypertext {
+        text-align: justify;
+        text-indent: 10px;
+        color: rgba(255, 255, 255, 0.747);
+        text-shadow: 1px 1px 4px black;
+        line-height: 1.2em;
+        margin-right: 35px;
+    }
+    
+    p.style {
+        text-align: justify;
+        text-indent: 10px;
+        color: rgba(255, 255, 255, 0.747);
+        text-shadow: 1px 1px 4px black;
+        line-height: 1.8em;
+        margin-right: 30px;
+    }
+
+    div.retorno > a > img{
+        width: 7vw;
+        position: relative;
+        left: 45%;
+    }
+
+    a > img:hover {
+        background-color: #000c33a6;
+        border-radius: 20px;
+        padding: 2px;
+    }
+    
+}
+
+@media screen and (min-width:1201px) {
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #000c23;
+        width: 98vw;
+    }
+
+    h1 {
+        text-align: center;
+        color: #000c33;
+        text-shadow: 3px -2px 2px darkkhaki;
+        font-size: 7vw;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 6px black;
+    }
+    
+    div.linguagens {
+        display: inline-block;
+        border: 1px solid #000c339d;
+        border-radius: 60px;
+        padding-left: 30px;
+        margin: inherit;
+        width: 433px;
+        height: 345px;
+    }
+
+    div#html5 {
+        background-image: url('../imagem/html5.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       position: relative;
+       left: 10%;
+    }
+    
+    div#css3 {
+        background-image: url('../imagem/css.jpg'); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 39%;
+        left: 50%;
+    }
+
+    p.hypertext {
+        text-align: justify;
+        text-indent: 10px;
+        color: rgba(255, 255, 255, 0.747);
+        text-shadow: 1px 1px 4px black;
+        line-height: 1.2em;
+        margin-right: 35px;
+    }
+    
+    p.style {
+        text-align: justify;
+        text-indent: 10px;
+        color: rgba(255, 255, 255, 0.747);
+        text-shadow: 1px 1px 4px black;
+        line-height: 1.8em;
+        margin-right: 30px;
+    }
+    
+    div.retorno > a > img{
+        width: 7vw;
+        position: relative;
+        left: 45%;
+    }
+
+    a > img:hover {
+        background-color: #000c33a6;
+        border-radius: 20px;
+        padding: 2px;
+    }
+}
+
+
